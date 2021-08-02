@@ -1,7 +1,7 @@
 {
-  "name": "BYOND-API",
+  "name": "byond-methods",
   "version": "1.0.0",
-  "description": "Module for making it easier to work with BYOND",
+  "description": "Module for making it easier to work with BYOND website",
   "main": "index.js",
   "keywords": ["byond", "byond api", "byond functions", "byond methods"],
   "author": "github.com/borg0",
