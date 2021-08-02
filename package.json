@@ -1,14 +1,19 @@
 {
   "name": "byond-methods",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Module for making it easier to work with BYOND website",
   "repository": {
-  	"type": "git",
-	"url": "https://github.com/borg0/byond-methods.git"
+    "type": "git",
+    "url": "https://github.com/borg0/byond-methods.git"
   },
   "homepage": "https://github.com/borg0/byond-methods#readme",
   "main": "index.js",
-  "keywords": ["byond", "byond api", "byond functions", "byond methods"],
+  "keywords": [
+    "byond",
+    "byond api",
+    "byond functions",
+    "byond methods"
+  ],
   "author": "github.com/borg0",
   "license": "MIT",
   "dependencies": {
