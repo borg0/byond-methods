@@ -113,9 +113,9 @@ const BYOND = require("byond-functions");
 (async ()=>{
     try{
         const res = await BYOND.gameInfo("Lizard_Sphere_Z", "Dragon Universe");
-        console.log(res);
+        return res;
     }catch(err){
-        console.log(err);
+        return err;
     }
 })()/* returns Promise that resolves into
 {
