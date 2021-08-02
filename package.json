@@ -1,0 +1,12 @@
+{
+  "name": "BYOND-API",
+  "version": "1.0.0",
+  "description": "Module for making it easier to work with BYOND",
+  "main": "index.js",
+  "keywords": ["byond", "byond api", "byond functions", "byond methods"],
+  "author": "github.com/borg0",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": ""
+  }
+}
