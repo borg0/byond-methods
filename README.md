@@ -76,9 +76,9 @@ const BYOND = require("byond-functions");
 (async ()=>{
     try{
         const res = await BYOND.developerInfo("Dantom", "Your First World");
-        console.log(res);
+        return res;
     }catch(err){
-        console.log(err);
+        return err;
     }
 })() /* returns Promise that resolves into
 {
