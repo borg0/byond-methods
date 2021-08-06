@@ -1,4 +1,4 @@
-# byond-functions
+# byond-methods
 
 Node.js module for making it easier to work with most `http://www.byond.com/` paths that support the `format=text` parameter, also helps in validating and checking availability of BYOND ckeys.
 
@@ -15,13 +15,13 @@ Node.js module for making it easier to work with most `http://www.byond.com/` pa
 ## Installation
 This is a Node.js module. Installation is done using
 
-`npm install byond-functions`
+`npm install byond-methods`
 <br/>
 <br/>
 ## `textToObject(text)`
 Converts a response text from a BYOND path using `format=text` as a parameter to a functional Javascript Object.
 ```javascript
-const BYOND = require("byond-functions");
+const BYOND = require("byond-methods");
 
 const text = `
 general
@@ -46,7 +46,7 @@ BYOND.textToObject(text) /* returns
 ## `keyInfo(ckey)`
 Returns a promise that resolves into a Javascript Object with information about a certain user.
 ```javascript
-const BYOND = require("byond-functions");
+const BYOND = require("byond-methods");
 
 (async ()=>{
     try{
@@ -71,7 +71,7 @@ const BYOND = require("byond-functions");
 ## `developerInfo(author, projectName)`
 Returns a promise that resolves into a Javascript Object about chosen project in the `http://www.byond.com/developer` path.
 ```javascript
-const BYOND = require("byond-functions");
+const BYOND = require("byond-methods");
 
 (async ()=>{
     try{
@@ -108,7 +108,7 @@ const BYOND = require("byond-functions");
 ## `gameInfo(author, gameName)`
 Returns a promise that resolves into a Javascript Object with information about a chosen game.
 ```javascript
-const BYOND = require("byond-functions");
+const BYOND = require("byond-methods");
 
 (async ()=>{
     try{
@@ -168,7 +168,7 @@ const BYOND = require("byond-functions");
 Checks if a key does not exists within BYOND, not the same as `isValid`.
 Returns true or false.
 ```javascript
-const BYOND = require("byond-functions");
+const BYOND = require("byond-methods");
 
 (async ()=>{
     await BYOND.isAvailable("Randy Sandy"); //promise will resolve with false, the key already exists
@@ -181,7 +181,7 @@ const BYOND = require("byond-functions");
 Checks if a key would be acceptable in BYOND registration, not the same as `isAvailable`.
 Returns true or false.
 ```javascript
-const BYOND = require("byond-functions");
+const BYOND = require("byond-methods");
 
 BYOND.isValid("exadv1") //returns true
 BYOND.isValid("zx.zx.zx.zx") //returns false 
