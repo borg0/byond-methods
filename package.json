@@ -1,6 +1,6 @@
 {
   "name": "byond-methods",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Module for making it easier to work with BYOND website",
   "repository": {
     "type": "git",
